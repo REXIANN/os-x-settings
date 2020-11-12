@@ -46,7 +46,7 @@ $ brew cask install alfred
 # brew search 프로그램이름 명령어로 해당 프로그램이 brew cask로 설치가능한지 먼저 알아볼 것!
 $ brew cask install webex-meetings # 이거는 암호 입력이 한번 필요함
 # 이후 다른 프로그램들은 편하게 설치 가능
-$ brew cask install typora postman mattermost dropbox slack pdf-expert 
+$ brew cask install typora postman mattermost dropbox slack pdf-expert docker 
 
 
 
