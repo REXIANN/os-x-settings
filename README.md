@@ -48,7 +48,9 @@ $ brew cask install webex-meetings # 이거는 암호 입력이 한번 필요함
 # 이후 다른 프로그램들은 편하게 설치 가능
 $ brew cask install typora postman mattermost dropbox slack pdf-expert docker 
 
-
+# 도커 로그인이 안될 때- 리눅스 기준
+$ sudo apt install gnupg2 pass
+ 
 
 
 ```
