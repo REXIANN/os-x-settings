@@ -37,10 +37,9 @@ fortune | cowsay -f tux
 $ brew install git
 $ brew install vcprompt
 
-# install firefox, spectacle, alfred
-$ brew cask install firefox # 크롬 유저는 google-chrome 
+# install firefox, spectacle
+$ brew cask install firefox google-chrome 
 $ brew cask install spectacle
-$ brew cask install alfred
 
 # install other programs
 # brew search 프로그램이름 명령어로 해당 프로그램이 brew cask로 설치가능한지 먼저 알아볼 것!
@@ -48,9 +47,20 @@ $ brew cask install webex-meetings # 이거는 암호 입력이 한번 필요함
 # 이후 다른 프로그램들은 편하게 설치 가능
 $ brew cask install typora postman mattermost dropbox slack pdf-expert docker 
 
+# 2022.09 현재 사용하는 프로그램들
+Using Brew: cowsay, fnm, fortune, go-task, python@3.9, teraform, tmux, 
+(Cask)logi-options-plus, firefox, google-chrome, macs-fan-control, spectacle, visual-studio-code
+
+Using Dmg: MS Office, Slack, GitKraken, Microsoft Edge, Caffeine, iTerm2, intelliJ, Amphetamine
+
+
 # 도커 로그인이 안될 때- 리눅스 기준
 $ sudo apt install gnupg2 pass
- 
+
+# intelliJ 플러그인 사용하는 것들
+.env files supprot, .ignore, Atom Material Icons, AceJump, GitToolBox, Go, Import Cost, Key Promoter X,
+Lines Sorter, Next.js, One Dark theme, Prettier, Prisma Support, Python, Rainbow Brackets, requirements, 
+SmartSort, SonarLint, Styled Components & Styled JSX, Taskfile, Terraform and HCL
 
 
 ```
