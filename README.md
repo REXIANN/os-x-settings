@@ -1,30 +1,24 @@
 # os-x-settings
 
 ## Terminal 세팅
-
-```bash
-# 제일 먼저 기본 bash shell을 켜자
-# Commnad Linte Tools Installation
-$ xcode-select --install
-
-# install brew
+### install brew
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 $ brew update
 $ brew cask install iterm2
 # bash를 종료하고 iterm2를 실행
 
-# install zsh
-$ brew install zsh
-$ echo $SHELL 
-$ which zsh
-# echo의 경로와 which의 경로가 다른 것을 볼 수 있다. 쉘을 참조하는 위치는 echo이고 우리는 echo를 which로 바꿔야함.
-$ chsh -s /usr/local/bin/zsh
-# 만일 chsh가 안된다면 /etc/shells에 which의 경로를 맨 위에 추가해줄 것
-$ vi /etc/shells
-# /usr/local/bin/zsh 을 추가 후 esc -> :wq -> enter키 
+### iterm2 setting
+theme = lovelace or argonaut 설정
+Preferences > Appearance > General > Theme: Minimal 
+Preferences > Apperarance > Tabs > XXOOOOXOOX
+Preferences > Profiles > General > Working Directory: Reuse previous session's directory
+Preferences > Window > Transparency: 20~30 
 
-# install oh-my-zsh
+### install oh-my-zsh and powerlevel10k
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+$ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+.zshrc 파일의 테마를 ZSH_THEME="powerlevel10k/powerlevel10k" 로 변경
+이후 터미널을 재실행하여 마저 진행하며 됨
 
 # install for Fun!
 $ brew install fortune
