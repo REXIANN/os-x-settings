@@ -4,7 +4,10 @@
 $ xcode-select --install
 $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 ```
-
+* 키보드 - 한/영 전환키 설정, 보조키 변경, 데스크톱 단축키(Ctrl + number) 활성화
+* 핫코너 - 기역 자 모양으로 Mission Control, Launch Pad, Desktop
+* Dock - 자동숨김 활성, 확대 활성
+* 트랙패드와 마우스 - 둘다 제일 빠르게 설정
 
 ## Terminal
 ### install brew
@@ -44,12 +47,7 @@ fortune | cowsay -f tux
 $ brew install --cask google-chrome slack spectacle git-kraken intellij docker kensingtonworks gitkraken docker 
 ```
 
-## MacOS 설정 변경
-* 키보드 - 한/영 전환키 설정, 보조키 변경, 데스크톱 단축키(Ctrl + <number>) 활성화
-* 핫코너 - 기역 자 모양으로 Mission Control, Launch Pad, Desktop
-* Dock - 자동숨김 활성, 확대 활성
-* 트랙패드와 마우스 - 둘다 제일 빠르게 설정
-  
+## 기타
 ### 2022.09 현재 사용하는 프로그램들
 Using Brew: cowsay, fnm, fortune, go-task, python@3.9, teraform, tmux, 
 (Cask)logi-options-plus, firefox, google-chrome, macs-fan-control, spectacle, visual-studio-code
