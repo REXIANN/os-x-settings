@@ -23,6 +23,7 @@ theme = lovelace or argonaut 설정
 * Preferences > Appearance > General > Theme: Minimal 
 * Preferences > Apperarance > Tabs > XXOOOOXOOX
 * Preferences > Profiles > General > Working Directory: Reuse previous session's directory
+* Preferences > Profiles > Session > Miscellaneous: Status bar enabled > Configure Status Bar
 * Preferences > Window > Transparency: 20~30 
 
 ### install oh-my-zsh and powerlevel10k
@@ -44,7 +45,7 @@ fortune | cowsay -f tux
 ## install applications
 필수 설치: 크롬, 슬랙, spectacle, 깃크라켄, 인텔리제이, 도커(cask), kensingtonworks
 ```
-$ brew install --cask google-chrome slack spectacle git-kraken intellij docker kensingtonworks gitkraken docker 
+$ brew install --cask google-chrome slack spectacle git-kraken intellij docker kensingtonworks gitkraken docker macs-fan-control
 ```
 
 ## 기타
