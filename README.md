@@ -1,11 +1,19 @@
 # os-x-settings
+## MacOS setting
+```
+$ xcode-select --install
+$ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+```
 
-## Terminal 세팅
+
+## Terminal
 ### install brew
+```
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 $ brew update
 $ brew cask install iterm2
-# bash를 종료하고 iterm2를 실행
+```
+bash를 종료하고 iterm2를 실행
 
 ### iterm2 setting
 theme = lovelace or argonaut 설정
@@ -15,25 +23,28 @@ Preferences > Profiles > General > Working Directory: Reuse previous session's d
 Preferences > Window > Transparency: 20~30 
 
 ### install oh-my-zsh and powerlevel10k
+```
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 $ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
 .zshrc 파일의 테마를 ZSH_THEME="powerlevel10k/powerlevel10k" 로 변경
 이후 터미널을 재실행하여 마저 진행하며 됨
 
-# install for Fun!
+### install for Fun!
+```
 $ brew install fortune
 $ brew install cowsay
 $ vi ~/.zshrc
 fortune | cowsay -f tux
-# 이제 터미널을 켤 때마다 턱스가 명언을 해준다!
+```
+이제 터미널을 켤 때마다 턱스가 명언을 해준다!
 
-# install git, vcprompt 
-$ brew install git
-$ brew install vcprompt
-
-# install firefox, spectacle
-$ brew cask install firefox google-chrome 
+## install applications
+필수 설치: 크롬, 슬랙, spectacle, 깃크라켄, 인텔리제이, 도커(cask), kensingtonworks
+```
+$ brew install --cask google-chrome slack spectacle git-kraken intellij docker kensingtonworks  
 $ brew cask install spectacle
+```
 
 # install other programs
 # brew search 프로그램이름 명령어로 해당 프로그램이 brew cask로 설치가능한지 먼저 알아볼 것!
